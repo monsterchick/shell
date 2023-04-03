@@ -21,6 +21,7 @@ done
 curl https://bootstrap.pypa.io/get-pip.py --Output get-pip.py
 python3 get-pip.py
 rm get-pip.py
+python3 -m pip install --upgrade pip
 
 # run chmod +x installer.sh to give executable permissions
 # run ./installer to execute this file
