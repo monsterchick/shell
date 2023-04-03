@@ -9,8 +9,8 @@ packages=(
 )
 
 # Update package information
-apt-get update
-apt-get install sudo
+sudo apt-get update
+
 # Install packages
 for p in "${packages[@]}"
 do
