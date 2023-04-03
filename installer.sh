@@ -5,6 +5,7 @@ packages=(
   python3
   nano
   curl
+  systemctl
   # add more packages here as needed
 )
 
